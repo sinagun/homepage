@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 :root {
-  --bg: #020829;
-  --fg: #ffffff;
-  --secondaryFg: #b3b3b3;
-  --containerBg: #272727;
+  --bg: #06125275;
+  --fg: #000000;
+  --secondaryFg: #ffffff;
+  --containerBg: #2d5242;
   --searchBg: var(--containerBg);
   --scrollbarColor: #3f3f3f;
-  --fontFamily: 'Roboto Mono', monospace;
+  --fontFamily: 'Bebas Neue', cursive;
 }
 
 body {
@@ -26,7 +29,7 @@ body {
 
 #clock {
   font-family: sans-serif;
-  font-size: 3.5rem;
+  font-size: 3.1rem;
   font-weight: 600;
   font-family: var(--fontFamily);
   color: var(--fg);
@@ -103,7 +106,7 @@ body {
   background-color: var(--containerBg);
   border-radius: 3px;
   font-family: var(--fontFamily);
-  font-size: 0.85rem;
+  font-size: 1.3rem;
   width: 25%;
   height: 12em;
   margin: 0em 0.5em;
@@ -134,7 +137,7 @@ body {
 }
 
 .bookmark-title {
-  font-size: 1.1rem;
+  font-size: 1.7rem;
   font-weight: 600;
   color: var(--fg);
   margin: 0em 0em 0.35em 0em;
